@@ -30,16 +30,35 @@
 }
 
 .box-3{
-    background-color: lightblue;
-    height: 500px;
+    background-color: blue;
+    min-height: 500px;
     margin-bottom: 20px;
     margin-top: 20px;
+}
 
+.titolo-1{
+    background-color: lightblue;
+    min-height: 100px;
+    margin-bottom: 20px;
+}
+
+.left, .right{
+    background-color: lightblue;
+    width: 20%;
+    float: left;
+    min-height: 400px;
+    margin-bottom: 20px;
+}
+
+.middle{
+    background-color: lightblue;
+    float: left;
+    width: calc(60% - 20px);
+    min-height: 400px;
+    margin:auto 10px;
 }
 
 
-.blue{
-    background-color: blue;
-}
+
 
 
